@@ -10,8 +10,7 @@
 <!-- Start of Selection -->
 <script>
 // Import the Poll component
-import Poll from '../components/poll.vue' // Fixed casing issue
-
+import Poll from '@/components/poll.vue' // Ensure this matches the file name exactly
 export default {
   name: 'App',
   components: {
